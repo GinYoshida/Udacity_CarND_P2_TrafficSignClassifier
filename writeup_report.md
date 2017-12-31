@@ -75,27 +75,6 @@ My final model consisted of the following layers:
 |:---------------------:|:---------------------------------------------:| 
 | Input         		| 32x32x3 RGB image   							| 
 | Convolution 1x1     	| 1x1 stride, same padding, outputs 32x32x6 	|
-| RELU					|												|
-| Convolution 5x5     	| 1x1 stride, same padding, outputs 26x26x6 	|
-| RELU					|												|
-| Max pooling	      	| 2x2 stride,  outputs 14x14x6  				|
-| Convolution 5x5     	| 1x1 stride, same padding, outputs 10x10x16 	|
-| RELU					|												|
-| Max pooling	      	| 2x2 stride,  outputs 5x5x6    				|
-| Dropout   	      	|   							  				|
-| Fully connected		| Inputs:400,  outputs: 120						|
-| RELU					|												|
-| Fully connected		| Inputs:120,  outputs: 84						|
-| Dropout   	      	|   							  				|
-| RELU					|												|
-| Fully connected		| Inputs:84,  outputs: 60						|
-|						|												|
-|						|												|
-
-| Layer         		|     Description	        					| 
-|:---------------------:|:---------------------------------------------:| 
-| Input         		| 32x32x3 RGB image   							| 
-| Convolution 1x1     	| 1x1 stride, same padding, outputs 32x32x6 	|
 | Convolution 1x1     	| 1x1 stride, same padding, outputs 32x32x6 	|
 | RELU					|												|
 | Convolution 5x5     	| 1x1 stride, same padding, outputs 26x26x6 	|
