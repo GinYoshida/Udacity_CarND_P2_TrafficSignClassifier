@@ -71,6 +71,7 @@ As additional step, I normalized the image data, because each data has different
 My final model consisted of the following layers:
 
 **Table.2.1 Network description**
+   
 | Layer         		|     Description	        					| 
 |:---------------------:|:---------------------------------------------:| 
 | Input         		| 32x32x3 RGB image   							| 
