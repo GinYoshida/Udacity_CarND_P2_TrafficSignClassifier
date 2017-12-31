@@ -63,10 +63,12 @@ Here is an example of a traffic sign image, which was added as new data.
 **Fig.3.1 Data added to uniform the number of each data set**
 ![alt text][image2]
 
+
 As additional step, I normalized the image data, because each data has different quality, i.e. different brightness.
 
 **Fig.3.2 Example of each label**
 ![alt text][image3]:
+
 
 #### 2. Describe what your final model architecture looks like including model type, layers, layer sizes, connectivity, etc.) Consider including a diagram and/or table describing the final model.
 
@@ -180,7 +182,7 @@ For the first image, the model is relatively sure that this is a stop sign (prob
 
 **Table.3-2 5 max. probability of 3rd image**
 | Probability         	|     Prediction	        					| 
-|:---------------------:|:---------------------------------------------:| 
+|:---:|:---:| 
 | 1.00	 				| 12,Priority road								| 
 | 1.55e-09				| 33,Turn right ahead						|
 | 1.04e-09				| 34,Turn left ahead						|
@@ -188,8 +190,8 @@ For the first image, the model is relatively sure that this is a stop sign (prob
 | 2.01e-10		    	| 1,Speed limit (30km/h)					|
 
 **Table.3-4 5 max. probability of 4th image**
-| Probability         	|     Prediction	        					| 
-|:---------------------:|:---------------------------------------------:| 
+| Probability	|     Prediction| 
+|:---:|:---:| 
 | 0.993	 				| 14,Stop								| 
 | 3.48e-03				| 13,Yield								|
 | 2.22e-03				| 17,No entry							|
