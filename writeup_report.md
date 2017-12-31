@@ -45,6 +45,7 @@ signs data set:
 Here is an exploratory visualization of the data set. It is a bar chart showing how the data. 
 
 **Fig2.1. Data distribution**
+ 
 ![alt text][image1]
 
 ### Design and Test a Model Architecture
@@ -57,12 +58,14 @@ Here is an exploratory visualization of the data set. It is a bar chart showing 
 Here is an example of a traffic sign image, which was added as new data.
 
 **Fig.3.1 Data added to uniform the number of each data set**
+  
 ![alt text][image2]
 
 
 As additional step, I normalized the image data, because each data has different quality, i.e. different brightness.
 
 **Fig.3.2 Example of each label**
+  
 ![alt text][image3]:
 
 
@@ -97,6 +100,7 @@ My final model consisted of the following layers:
 To train the model, I applied the following setting
 
 **Table.3.1 Training model setting**
+  
 | Parameter  | Setting  |
 |---|---|
 |Optimizer   			| Adam  |
@@ -128,7 +132,7 @@ My final model results were:
 Here are five German traffic signs that I found on the web:
 
 **Fig.1-1 Image data from web**
-
+  
 ![alt text][image4] 
 
 The first image might be difficult to classify, because there are similar signes in training set as shown in Fig.3.2, i.e. label 1~8.
@@ -139,6 +143,7 @@ Also, the last image is difficult to classify, because there is not correct labe
 Here are the results of the prediction:
 
 **Table.2.1 Result of prediction for image data from web**
+  
 | Image			        |     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
 | 5. Speed limit (80km/h)	| 5. Speed limit (80km/h)					| 
@@ -157,6 +162,7 @@ The code for making predictions on my final model is located in the 20th cell of
 For the first image, the model is relatively sure that this is a stop sign (probability of 0.65), and the image does contain a stop sign. The top five soft max. probabilities were shown below.
 
 **Table.3-1 5 max. probability of 1st image**
+  
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
 | .650		 			| 5,Speed limit (80km/h)						| 
@@ -168,6 +174,7 @@ For the first image, the model is relatively sure that this is a stop sign (prob
  For the second ~ forth images, the model is relatively sure that top probability images (probability of 0.99~1.00). And top probability images match with input data. The top five soft max. probabilities were shown below.
 
 **Table.3-2 5 max. probability of 2nd image**
+  
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
 | 1.00				| 25,Road work								| 
@@ -177,6 +184,7 @@ For the first image, the model is relatively sure that this is a stop sign (prob
 | 1.18e-06		    | 28,Children crossing						|
 
 **Table.3-2 5 max. probability of 3rd image**
+  
 | Probability         	|     Prediction	        					| 
 |:---:|:---:| 
 | 1.00	 				| 12,Priority road								| 
@@ -186,6 +194,7 @@ For the first image, the model is relatively sure that this is a stop sign (prob
 | 2.01e-10		    	| 1,Speed limit (30km/h)					|
 
 **Table.3-4 5 max. probability of 4th image**
+  
 | Probability	|     Prediction| 
 |:---:|:---:| 
 | 0.993	 				| 14,Stop								| 
@@ -197,6 +206,7 @@ For the first image, the model is relatively sure that this is a stop sign (prob
  For the second ~ forth images, the model is relatively sure that this is a turn left ahead (probability of 0.999). This might be due to combination of arrow shape and coloring.
 
 **Table.3-5 5 max. probability of 4th image**
+  
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
 | 0.999	 				| 34,Turn left ahead						| 
