@@ -16,10 +16,6 @@ The goals / steps of this project are the following:
 [image2]: ./report/Fig3_1.png "Smoothing"
 [image3]: ./report/Fig3_2.png "Convert"
 [image4]: . ./report/Fig3_2.png "FromWeb"
-[image5]: ./examples/placeholder.png "Traffic Sign 2"
-[image6]: ./examples/placeholder.png "Traffic Sign 3"
-[image7]: ./examples/placeholder.png "Traffic Sign 4"
-[image8]: ./examples/placeholder.png "Traffic Sign 5"
 
 ## Rubric Points
 ### Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.  
@@ -93,7 +89,20 @@ My final model consisted of the following layers:
 | Dropout   	      	|   							  				|
 | RELU					|												|
 | Fully connected		| Inputs:84,  outputs: 60						|
- 
+|						|												|
+|						|												|
+
+| Layer         		|     Description	        					| 
+|:---------------------:|:---------------------------------------------:| 
+| Input         		| 32x32x3 RGB image   							| 
+| Convolution 3x3     	| 1x1 stride, same padding, outputs 32x32x64 	|
+| RELU					|												|
+| Max pooling	      	| 2x2 stride,  outputs 16x16x64 				|
+| Convolution 3x3	    | etc.      									|
+| Fully connected		| etc.        									|
+| Softmax				| etc.        									|
+|						|												|
+|						|												|
 
 
 #### 3. Describe how you trained your model. The discussion can include the type of optimizer, the batch size, number of epochs and any hyperparameters such as learning rate.
