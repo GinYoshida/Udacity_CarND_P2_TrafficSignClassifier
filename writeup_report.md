@@ -15,7 +15,7 @@ The goals / steps of this project are the following:
 [image1]: ./report/Fig_2_1.png "Visualization"
 [image2]: ./report/Fig3_1.png "Smoothing"
 [image3]: ./report/Fig3_2.png "Convert"
-[image4]: . ./report/Fig3_2.png "FromWeb"
+[image4]: ./report/Fig3_2.png "FromWeb"
 
 ## Rubric Points
 ### Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.  
